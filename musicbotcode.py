@@ -63,7 +63,7 @@ client = commands.Bot(command_prefix="!", intents=intents)
 
 async def main():
   await client.add_cog(MusicBot(client))
-  await client.start('MTI3Mzk0OTk0Njg4MTY0MjUyNg.Giuqze.KGfXzLVXvDVtXEgWaqMVZge7Sjw6gmrjDnOrBw')
+  await client.start('djiuahjaiuopwahUOWJbcpIWHoDI') #Discord token
 asyncio.run(main())
 
 webserver.keep_alive()
